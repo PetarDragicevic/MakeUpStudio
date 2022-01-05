@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import NavLayout from "../HomeComponents/NavLayout";
 import Wallpaper from "../HomeComponents/Wallpaper";
 import ONama from "../HomeComponents/ONama";
@@ -11,6 +11,11 @@ import Footer from "../HomeComponents/Footer";
 import "./Pocetna.css";
 
 function Pocetna() {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+});
+
   return (
     <div className="Pocetna">
       <NavLayout />

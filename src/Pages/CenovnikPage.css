@@ -1,0 +1,9 @@
+.cenovnik-page {
+  height: 100%;
+  color: #000;
+  background-color: black;
+  overflow-x: hidden;
+  margin: -8px;
+  padding: 0;
+  box-sizing: border-box;
+}

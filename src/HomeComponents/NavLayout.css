@@ -1,0 +1,197 @@
+.logo {
+  height: 80px;
+  width: auto;
+  float: left;
+  margin-top: 8px;
+  margin-left: 20px;
+  border: grey solid 2px;
+  border-radius: 50%;
+}
+
+.row {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  color: rgb(233, 228, 219);
+  text-transform: uppercase;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-right: 20px;
+  font-size: 120%;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: rgb(233, 228, 219);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #c59b76;
+}
+
+.SocialIcons li {
+  display: inline-block;
+  margin-left: 10px;
+  padding-right: 20px;
+  font-size: 120%;
+}
+
+.SocialIcons {
+  float: right;
+}
+
+.SocialIcons a {
+  color: rgb(233, 228, 219);
+}
+
+.facebookIcon a :hover {
+  color: #3b5998;
+  transition: color 0.4s;
+}
+
+.instagramIcon a :hover {
+  color: #517fa4;
+  transition: color 0.4s;
+}
+
+.youtubeIcon a :hover {
+  color: red;
+  transition: color 0.4s;
+}
+
+.locationIcon a {
+  font-size: 90%;
+}
+
+.addres {
+  font-size: 150%;
+  color: rgb(233, 228, 219);
+}
+
+.addres:hover {
+  color: red;
+  transition: color 0.4s;
+}
+
+.sticky {
+  /*position: fixed;*/
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* 
+@media (max-width: 1240px) {
+    .logo {
+        height: 25px;
+        margin-top: 20px;
+      }
+      
+      .row {
+        width: 100%;
+        height: 50px;   
+      }
+      
+      .main-nav {
+        margin-top: 25px;
+      }
+      
+      .main-nav li {
+  
+        margin-left: 25px;
+        padding-right: 10px;
+ 
+      }
+}
+
+@media (max-width: 1038px) {
+    .logo {
+        
+        margin-top: 10px;
+        height: 18px;
+      }
+      
+      .row {
+        width: 100%;
+        height: 50px;  
+        
+      }
+       
+      .main-nav li {
+        display: inline-block;
+        margin-left: 36px;
+        padding-right: 1px;
+        font-size: 50%;
+      }
+      .SocialIcons a {
+        font-size: 0.7rem;
+      }
+     
+}
+
+@media (max-width: 767px) {
+    .SocialIcons a {
+        font-size: 0.7rem;
+      }
+      .main-nav li {
+        display: inline-block;
+        margin-left: 12px;
+        
+        font-size: 30%;
+      }
+      .main-nav {
+        margin-top: 10px;
+      }
+      .SocialIcons li {
+        display: inline-block;
+        margin-left: -2px;
+        padding-right: 3px;
+        font-size: 20%;
+      }
+      .logo {
+        height: 23px;
+        margin-top: 0px;
+      }
+}
+
+
+@media (max-width: 480px) {
+
+.SocialIcons a {
+        font-size: 0.3rem;
+      }
+      .main-nav li {
+        display: inline-block;
+        margin-left: 12px;
+        
+        font-size: 30%;
+      }
+      .main-nav {
+        margin-top: 10px;
+      }
+      .SocialIcons li {
+        display: inline-block;
+        margin-left: -2px;
+        padding-right: 3px;
+        font-size: 20%;
+      }
+      .logo {
+        height: 23px;
+        margin-top: 0px;
+      }
+} */

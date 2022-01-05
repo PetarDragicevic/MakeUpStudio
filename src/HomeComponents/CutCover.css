@@ -1,0 +1,11 @@
+.cutcover {
+  background-size: cover;
+  background-position: center;
+}
+
+.cutcover img {
+  width: 100%;
+  height: 350px;
+  margin-top: -20px;
+  margin-bottom: -5px;
+}

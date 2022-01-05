@@ -1,0 +1,27 @@
+.simplemap {
+  display: block;
+}
+.maptext {
+  margin-left: 50%;
+  margin-top: -20%;
+  color: rgb(233, 228, 219);
+  float: right;
+  height: 50vh;
+  width: 50%;
+  position: absolute;
+}
+
+.maptext img {
+  height: 50vh;
+  width: 120%;
+  margin-left: -152px;
+  margin-top: -57px;
+  position: relative;
+}
+
+.textposition {
+  position: absolute;
+  margin-left: -70px;
+  margin-top: -300px;
+  font-size: 1.5rem;
+}

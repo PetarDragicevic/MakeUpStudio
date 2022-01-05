@@ -1,0 +1,34 @@
+.footer {
+  background-color: rgb(233, 228, 219);
+  color: rgb(139, 141, 106);
+  padding-top: 1px;
+  padding-bottom: 5px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.footer li {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.phoneicon {
+  float: right;
+  font-size: 4rem;
+  margin-top: -220px;
+  margin-right: 100px;
+  padding-bottom: -20px;
+}
+
+.workingtime li {
+  padding-bottom: -100px;
+  margin-top: -20px;
+  margin-left: 1300px;
+}
+
+.workingtime {
+  margin-top: -150px;
+}

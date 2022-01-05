@@ -1,0 +1,15 @@
+.booking {
+  background-color: rgb(233, 228, 219);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: rgb(139, 141, 106);
+  font-weight: bold;
+}
+
+.booking li {
+  margin-top: 50px;
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 30px;
+}

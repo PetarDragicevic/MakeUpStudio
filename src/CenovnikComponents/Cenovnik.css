@@ -1,0 +1,22 @@
+.cenovnik {
+    background-color: rgb(233, 228, 219);
+    width: 110%;
+    padding-bottom: 50px;
+    margin-left: -60px;
+    
+    
+}
+
+.cenovnik h1 {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.cenovnik img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 50px;
+    border-radius: 5%;
+}

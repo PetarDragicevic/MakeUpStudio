@@ -8,8 +8,9 @@ ReactDOM.render(
   <Router>
     <Routes>
       <Route path="/" element={<Pocetna />} />
-      <Route path="/cenovnik" element={<CenovnikPage />} />
+      <Route path="/cenovnik" element={<CenovnikPage />} /> 
     </Routes>
   </Router>,
   document.getElementById("root")
 );
+// ovo je samo comentar

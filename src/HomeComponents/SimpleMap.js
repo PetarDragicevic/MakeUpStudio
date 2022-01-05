@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import GoogleMapReact from "google-map-react";
+import { Icon } from "@iconify/react";
 import "./SimpleMap.css";
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const AnyReactComponent = ({ text }) => <Icon className="addres" icon="ion:location-outline" />
 
 class SimpleMap extends Component {
   static defaultProps = {

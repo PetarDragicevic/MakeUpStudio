@@ -3,14 +3,27 @@ import "./NavLayout.css";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 import { Link as Scroll } from "react-scroll";
+//import ScrollToTop from "react-scroll-to-top";
 
 function NavLayout() {
   const linkStyle = {
     color: "white",
+    cursor: "pointer",
   };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="row sticky">
-      <img className="logo" src="/content/logo1.jpg" />
+      <Scroll to={"wallpaper"} smooth={true} duration={500}>
+        <img style={linkStyle} className="logo" src="/content/logo1.jpg" />
+      </Scroll>
+
       <div>
         <ul className="SocialIcons">
           <li className="locationIcon">
@@ -45,21 +58,25 @@ function NavLayout() {
       <ul className="main-nav js--main-nav">
         <Link style={linkStyle} to="/">
           <li>
-            <a>Pocetna</a>
+            <a onClick={scrollToTop}>Pocetna</a>
           </li>
         </Link>
         <li>
-          <Scroll to={"usluge"} smooth={true} duration={1000}>
+          <Scroll
+            style={linkStyle}
+            to={"usluge"}
+            smooth={true}
+            duration={1000}
+            style={linkStyle}
+          >
             Usluge
           </Scroll>
         </li>
-
-        <li>
-          <Link to="/kontakt">
-            Kontakt
-          </Link>
-        </li>
-
+        <Link style={linkStyle} to="/kontakt">
+          <li>
+            <a>Kontakt</a>
+          </li>
+        </Link>
         <Link style={linkStyle} to="/cenovnik">
           <li>
             <a>cenovnik</a>

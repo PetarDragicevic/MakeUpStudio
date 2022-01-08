@@ -5,7 +5,13 @@ function Usluge() {
   return (
     <div className="usluge">
       <h1>USLUGE</h1>
-      <ul className="usluge-showcase clearfix">
+      <ul className="title-list">
+        <li className="title"><a>Sminka</a></li>
+        <li className="title"><a>Sminka</a></li>
+        <li className="title"><a>Sminka</a></li>
+        <li className="title"><a>Sminka</a></li>
+      </ul>
+      <ul className="usluge-showcase">
         <li>
           <figure className="usluge-photo">
             <img className="img1" src="content/makeup.jpg"></img>

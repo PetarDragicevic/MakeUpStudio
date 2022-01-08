@@ -1,6 +1,7 @@
 .cutcover {
   background-size: cover;
   background-position: center;
+  user-select: none;
 }
 
 .cutcover img {

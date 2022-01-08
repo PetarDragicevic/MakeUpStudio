@@ -39,13 +39,13 @@ function KontaktLogic() {
           </label>
         </div>
         <div className="form-inputs-comment">
-          <label htmlFor="comment" className="form-label">
+          <label htmlFor="comment" className="form-label ">
             Tekst poruke
             <input
               id="comment"
               type="comment"
               name="comment"
-              className="form-input"
+              className="form-input form-comment"
               placeholder=""
             ></input>
           </label>

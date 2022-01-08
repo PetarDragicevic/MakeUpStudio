@@ -3,6 +3,7 @@
   color: rgb(139, 141, 106);
   padding-top: 1px;
   padding-bottom: 5px;
+  user-select: none;
 }
 
 .copyright {

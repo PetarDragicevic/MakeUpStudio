@@ -1,0 +1,12 @@
+.kontakt-page {
+    height: 100%;
+    width: auto;
+    color: #000;
+    background-color: black;
+    overflow-x: hidden;
+    margin: -8px;
+    padding: 0;
+    box-sizing: border-box;
+    background-position: center;
+  }
+

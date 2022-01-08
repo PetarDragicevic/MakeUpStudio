@@ -3,13 +3,13 @@ import GoogleMapReact from "google-map-react";
 import { Icon } from "@iconify/react";
 import "./SimpleMap.css";
 
-const AnyReactComponent = ({ text }) => <Icon className="addres" icon="ion:location-outline" />
+const AnyReactComponent = ({ text }) => <div className="map-icon"><Icon icon="ion:location-outline" /><p>Beauty Studio Jelena Dragicevic</p></div>
 
 class SimpleMap extends Component {
   static defaultProps = {
     center: {
-      lat: 43.315785,
-      lng: 21.896691,
+      lat: 43.315961,
+      lng: 21.896684,
     },
     zoom: 17,
   };
@@ -24,8 +24,8 @@ class SimpleMap extends Component {
           >
             <AnyReactComponent
               className="googlemap"
-              lat={43.315785}
-              lng={21.896691}
+              lat={43.315961}
+              lng={21.896684}
               text="Studio Jelena Dragicevic"
             />
           </GoogleMapReact>

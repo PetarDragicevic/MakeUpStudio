@@ -55,9 +55,9 @@ function NavLayout() {
         </li>
 
         <li>
-          <Scroll to="footer" smooth={true} duration={1000}>
+          <Link to="/kontakt">
             Kontakt
-          </Scroll>
+          </Link>
         </li>
 
         <Link style={linkStyle} to="/cenovnik">

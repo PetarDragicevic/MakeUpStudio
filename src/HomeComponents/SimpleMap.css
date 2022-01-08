@@ -1,5 +1,6 @@
 .simplemap {
   display: block;
+  color: rgb(155, 5, 5);
 }
 .maptext {
   margin-left: 50%;
@@ -24,4 +25,13 @@
   margin-left: -70px;
   margin-top: -300px;
   font-size: 1.5rem;
+}
+
+.map-icon  {
+  font-size: 2rem;
+}
+
+.map-icon p {
+  font-size: 0.7rem;
+  margin-top: -10px;
 }

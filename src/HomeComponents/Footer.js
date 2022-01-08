@@ -35,7 +35,7 @@ function Footer() {
           </div>
         </div>
         <div className="copyright">
-          <p>Copyright &copy; 2020 by Petar Dragicevic. All rights reserved.</p>
+          <p>Copyright &copy; 2022 by Petar Dragicevic. All rights reserved.</p>
         </div>
       </footer>
     </div>
